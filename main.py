@@ -5,7 +5,8 @@ import json
 import keep_alive
 from math import sqrt
 from time import perf_counter
-
+from dotenv import load_dotenv()
+load_dotenv()
 def perfect_square(limit):  
     accumulation_list = [1]
     index, increment = 0, 3
